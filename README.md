@@ -1,4 +1,4 @@
-# hecatonquiro-jest
+# hecatonquiro
 
 Este projeto tem por finalidade o aprendizado para futuras implementações do framework [Jest](https://jestjs.io/) para
 testes unitários em Javascript.
