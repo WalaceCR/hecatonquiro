@@ -13,9 +13,9 @@ test('adds to words and return another one', () => {
 });
 
 //uso de mocks
-test("verify return from list", ()=>{
+//ignored test using .skip
+test.skip("verify return from list", ()=>{
     let mockCallback = jest.fn(x => 42 + x);
     retornolista([0, 1, 2, 3, 1], mockCallback);
-    //expect(mockCallback.mock.calls[0][0]).toBe(0);
     expect(mockCallback.mock.calls.length).toBe(0);
 });
