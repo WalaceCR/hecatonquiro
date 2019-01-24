@@ -37,4 +37,4 @@ class Calculadora{
 
 }
 
-module.exports = calcular, sum, sub, mult, div;
+module.exports = Calculadora;
