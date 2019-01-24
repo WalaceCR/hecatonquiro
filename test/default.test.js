@@ -1,8 +1,8 @@
-const somar = require('./default');
+const somar = require('../src/default');
 
-const concatenar2 = require('./default');
+const concatenar2 = require('../src/default');
 
-const retornolista = require('./default');
+const retornolista = require('../src/default');
 
 test('adds 1 + 2 to equal 3', () => {
     expect(somar(1, 2)).toBe(3);
